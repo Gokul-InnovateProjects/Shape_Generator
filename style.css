@@ -1,0 +1,85 @@
+* {
+  text-align: center;
+}
+body {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#input {
+  background-image: url("https://media.istockphoto.com/id/1478046176/vector/developer.jpg?s=1024x1024&w=is&k=20&c=Xd937z2sD4qCT0Tw6DMsuncE3XJ4_bvIN5VRGVPyG9c=");
+  width: 100vw;
+  height: "50vh";
+  background-repeat: no-repeat;
+  flex-direction: coloumn;
+  justify-content: center;
+}
+h1 {
+  font-size: 2em;
+  margin: 10px;
+}
+p {
+  font-size: 2em;
+  margin: 10px;
+}
+#number {
+  width: 150px;
+  height: 40px;
+  font-size: 2em;
+  padding: 0px 10px;
+}
+#button {
+  width: 140px;
+  height: 40;
+  font-size: 1.5em;
+  background-color: blue;
+  color: white;
+}
+.circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  background-color: brown;
+}
+.square {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  height: 25px;
+  width: 40px;
+  background-color: orangered;
+}
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  height: 50px;
+  width: 80px;
+  background-color: blue;
+}
+#box {
+  display:flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
